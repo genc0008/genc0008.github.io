@@ -5,88 +5,228 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final Project - Berk Gencturk</title>
+
+    <script src="https://kit.fontawesome.com/14c745b3e9.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    
+
+
     <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div id="home"><a href="index.html">lol</a></div>
-        <div class="hero-image">
-            <div class="hero-text">
+  <nav>
+      <ul>
+          <li id="navbar-logo">
+              <a href="#">
+                  <img src="images/logo.png" alt="logo">
+              </a>
+          </li>
+          <li class="navbar-link"><a class="active" href="#">Home</a></li>
+          <li class="navbar-link"><a href="#about-us-section">About Us</a></li>
+          <li class="navbar-link"><a href="#services-section">Services</a></li>
+          <li class="navbar-link"><a href="#team-section">Team</a></li>
+          <li class="navbar-link"><a href="#contact-section">Contact</a></li>
+          <li id="navbar-search">
+              <input type="text" name="navsearch" id="navbar-search-input" placeholder="Search">
+              <button id="navbar-search-button"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+          </li>
+      </ul>
+  </nav>
+  <main>
+      <section id="intro-section">
+          <div>
               <h1>Welcome to Three Star Media</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam dicta</p>
-              <button>Connect With Us</button>
-            </div>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                  Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                  Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                  Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                  Maecenas libero nunc, scelerisque a interdum vel, fringilla a eros.
+              </p>
+              <a class="link-button" href="#">Connect with us <i class="fa-solid fa-caret-right"></i> </a> 
           </div>
-
-        </header>
-
-    <h1>About Us</h1>
-    <p2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus rem architecto quibusdam assumenda facilis, voluptates quisquam libero nisi velit fugit maiores aliquam ducimus omnis. Eius tempore aliquid ducimus voluptatum voluptates?</p2>
-
-    <h1>Our Services</h1>
-
-    <h2>Digital Transformation</h2>
-    <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas laborum voluptatibus at nesciunt sed perspiciatis officiis mollitia, distinctio rerum explicabo sit est aperiam temporibus alias expedita tempore nemo doloremque!
-    </p2>
-    <button>Digital Plans</button>
-    <h2>Marketing</h2>
-
-    <p2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione repellat vero eos aliquid quaerat, ut rerum ea. Quasi dolorum sit, repellat sunt quod nesciunt itaque distinctio veritatis commodi illum error?
-    </p2>
-    <button>Marketing Plans</button>
-
-    <h2> Video Production</h2>
-    <p2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore animi laboriosam atque aut debitis doloremque velit dolor possimus minima repudiandae accusantium fuga ea tempora illum impedit praesentium consequuntur, recusandae iste.</p2>
-    
-    <button>Video Plans</button>
-
-    <h2>Web Development</h2>
-    <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde quia nostrum sapiente ut voluptas aperiam eius laboriosam inventore. Repudiandae, quaerat? Enim in itaque animi voluptate quisquam autem tempora error.</p2>
-    <button>Web Plans</button>
-
-    <h2>Print</h2>
-    <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde quia nostrum sapiente ut voluptas aperiam eius laboriosam inventore. Repudiandae, quaerat? Enim in itaque animi voluptate quisquam autem tempora error.</p2>
-    <button>Print Plans</button>
-
-    <h3>Our Vision</h3>
-    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore laudantium veniam maxime magni ipsam maiores cum quam earum modi distinctio dolores error iusto recusandae nostrum, suscipit dolorem iure cumque.</p1>
-
-    <h1>Our Team</h1>
-    
-    <h1>Contact Us</h1>
-    <h2>Send us a message</h1>
-
-    <div class="contact">
-        <form>
-      
-          <label for="Name">Full Name</label>
-          <br>
-          <input type="text" id="fname" name="name">
-          <br>
-          <br>
-      
-          <label for="Email">Email</label>
-          <br>
-          <input type="text" id="Email" name="Email">
-          <br>
-          <br>
-    
-          <label for="Message">Message</label>
-          <br>
-          <input type="text" id="Message" name="Message">
-          <br>
-          <br>
-      
-          <input type="submit" value="SEND">
-        </form>
-    </div>
-    <h2>Hours of Operation</h2>
-
-
-    <h2>Location</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89818.12810448297!2d-75.73012479999998!3d45.2919296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1649132818357!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <section id="about-us-section">
+          <div id="about-us-content">
+          <img src="images/about-us.jpg" alt="about us" id="about-us-image"> 
+          <div id="about-us-text-container">
+              <h2>About Us</h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                  Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                  Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                  Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+              </p>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                  Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim.
+              </p>
+          </div>
+          </div>
+        </section>
+      <section id="services-section">
+          <h2>Our Services</h2>
+          <section id="services-row-1">
+                <article class="services-card">
+                    <img src="images/digital.jpg" alt="digital">
+                    <div class="services-card-text-container">
+                        <h3>Digital Transformation</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                            Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                            Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                            Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                        </p>
+                        <a class="link-button" href="#">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </article>
+                <article class="services-card">
+                    <img src="images/marketing.jpg" alt="marketing">
+                    <div class="services-card-text-container">
+                        <h3>Marketing</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                            Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                            Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                            Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                        </p>
+                        <a class="link-button" href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </article>
+            </section>
+            <section id="services-row-2">
+                    <article class="services-card">
+                        <img src="images/video.jpg" alt="video">
+                        <div class="services-card-text-container">
+                            <h3>Video Production</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                                Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                                Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                            </p>
+                            <a class="link-button" href="#">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="services-card">
+                        <img src="images/web.jpg" alt="web development">
+                        <div class="services-card-text-container">
+                            <h3>Web Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                                Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                                Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                            </p>
+                            <a class="link-button" href="#">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="services-card">
+                        <img src="images/print.jpg" alt="print">
+                        <div class="services-card-text-container">
+                            <h3>Print</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                                Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                                Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                            </p>
+                            <a class="link-button" href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
+                        </div>
+                    </article>
+            </section>
+      </section>
+      <section id="vision-section">
+          <div class= "vision-container"> 
+          <h2>Our Vision</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+              Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+              Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+              Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+          </p>
+          <a class="link-button" href="#">Learn More <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+      </section>
+      <section id="team-section">
+          <h2>Our Team</h2>
+          <article class="team-member-card john">
+              <img src="images/john.jpg" alt="john">
+              <div class="team-member-card-text-container">
+                  <h4>John Doe</h4>
+                  <h5>CEO and Co-owner</h5>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                      Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                      Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                      Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                  </p>
+              </div>
+          </article>
+          <article class="team-member-card bob">
+              <img src="images/bob.jpg" alt="bobby">
+              <div class="team-member-card-text-container">
+                  <h4>Bob Rite</h4>
+                  <h5>CFO and Co-owner</h5>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                      Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                      Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                      Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                  </p>
+              </div>
+          </article>
+      </section>
+      <h2 class="contact-h2">Contact Us</h2>
+      <section id="contact-section">
+          <div class="contact-message-container">
+              <h3>Send us a message</h3>
+              <form action="#" method="post">
+                  <label for="contact-name">Full Name</label>
+                  <input type="text" name="contact-name" id="contact-name">
+                  <label for="contact-email">Email</label>
+                  <input type="text" name="contact-email" id="contact-email">
+                  <label for="contact-message">Message</label>
+                  <textarea name="contact-message" id="contact-message"></textarea>
+                  <input type="submit" id="contact-send-button" value="Send">
+              </form>
+          </div>
+          <div class="operation-schedule-container">
+            <h3>Hours of Operation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+          <div class="contact-maps-container">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.6154027603134!2d-75.75898844557365!3d45.348992451330744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2str!4v1649787847676!5m2!1sen!2str" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+    </section>
+  </main>
+  <footer>
+        <div class="footer-container">
+                <p>&copy; Copyright Three Star Media, 2022</p>
+                <p>All images are taken from <a href="https://unsplash.com">Unsplash</a></p>
+        </div>
+  </footer>
 </body>
-<footer>©Three Star Media</footer>
-<footer>All images are taken from Unplash</footer>
-
 </html>
